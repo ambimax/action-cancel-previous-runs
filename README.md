@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.6.0
+        uses: ambimax/action-cancel-previous-runs@v1
         with:
           access_token: ${{ github.token }}
       #- name: Run Tests
